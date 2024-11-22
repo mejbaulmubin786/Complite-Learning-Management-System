@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+class AdminController extends Controller {
+    public function AdminDashboard() {
+        return view('admin.admin_dashboard');
+    } // End Method
 
-class AdminController extends Controller
-{
-    //
+    public function InstructorController() {
+        return view('instructor.instructor_dashboard');
+    } // End Method
 }
