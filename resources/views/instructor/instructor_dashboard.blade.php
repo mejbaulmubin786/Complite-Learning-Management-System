@@ -7,6 +7,6 @@
     <title>Instructor page</title>
 </head>
 <body>
-    <h1>Admin page</h1>
+    <h1>Instructor page</h1>
 </body>
 </html>
